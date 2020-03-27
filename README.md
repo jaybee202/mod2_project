@@ -8,18 +8,20 @@ https://github.com/jaybee202/mod2_project
 
 
 ## Project File Summary
-    - README.md - a summary repository content
-    - /archived_files - includes Jupyter Notebooks of code developed but not ultimately used
-    - /data - all data files pertaining to King County housing prices processed data files
-    - /presentation - PowerPoint and pdf files of the final presentation
-    - /project_documents - Onboarding project documents provided at the start of this project
-    - /research - a map of King County zip codes
-    - /step1_data_cleaning - a Jupyter Notebook (JNB) used to clean the original data
-    - /step2_feature_correlation_analysis - descriptive statics analysis of the cleaned data
-    - /step3_train_test_split - JNB used to split and save the train and test data
-    - /step4_model_and_feature_selection - Files used to run OLS linear regression models and feature removal
-    - /step5_model_testing - JNB testing the test data against the model
-    - /step6_analysis - JNB used to acquire specific data points needed for the final presentation
+The Github repository includes the following files and folders
+
+- README.md - a summary repository content
+- /archived_files - includes Jupyter Notebooks of code developed but not ultimately used
+- /data - all data files pertaining to King County housing prices processed data files
+- /presentation - PowerPoint and pdf files of the final presentation
+- /project_documents - Onboarding project documents provided at the start of this project
+- /research - a map of King County zip codes
+- /step1_data_cleaning - a Jupyter Notebook (JNB) used to clean the original data
+- /step2_feature_correlation_analysis - descriptive statics analysis of the cleaned data
+- /step3_train_test_split - JNB used to split and save the train and test data
+- /step4_model_and_feature_selection - Files used to run OLS linear regression models and feature removal
+- /step5_model_testing - JNB testing the test data against the model
+- /step6_analysis - JNB used to acquire specific data points needed for the final presentation
 
 
 ## Project Members
@@ -32,16 +34,15 @@ For the second module in Flatiron's Data Science bootcamp provided me with data 
 Given the project scenario, I created a linear regression based on sixteen data points pertaining to King County home prices.  Of these sixteen data points, one was treated as a categorical variable, the being the zip code.  The final model yielded an adjusted r2 value of 0.87.
 
 ### Project objectives:
-    - Create a predictive model for housing prices in King County
-    - Reduce the quantity of features required by the model
-    - Apply project findings to a briefing to Redfin Now
+- Create a predictive model for housing prices in King County
+- Reduce the quantity of features required by the model
+- Apply project findings to a briefing to Redfin Now
 
 
 ## Methodology
-
 __Step 1__: Clean the data my imputing null values and setting proper datatypes
 
-    __Step 2__: Review descriptive statistics of the data looking for highly correlated independent variables and identify categorical variables
+__Step 2__: Review descriptive statistics of the data looking for highly correlated independent variables and identify categorical variables
 
 __Step 3__: Split the data into train and test sets after one hot encoding the zip code data
 
