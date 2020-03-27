@@ -25,7 +25,7 @@ The Github repository includes the following files and folders
 
 
 ## Project Members
-    Joe Buzzelli
+Joe Buzzelli
 
 
 ## Project Scenario
